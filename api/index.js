@@ -1,6 +1,8 @@
 'use strict'
 
 var mongoose = require('mongoose');
+var app = require('./app');
+var port = 3800;
 
 //Conexão com Banco de Dados
 mongoose.Promisse = global.Promisse;
