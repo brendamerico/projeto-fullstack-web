@@ -18,7 +18,8 @@ app.use(bodyParser.json());
 const rotasIndex = require('./rotas/index');
 app.use(rotasIndex);
 
-// const rotasUsuario = require('./rotas/usuario');
-// app.use(rotasUsuario);
+const rotasUsuario = require('./rotas/usuario');
+app.use(rotasUsuario);
+
 // Exportações
 module.exports = app;
